@@ -6,7 +6,7 @@ const Navibar = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand>Bootstrap blog</Navbar.Brand>
+                <Navbar.Brand className="ms-2">Bootstrap blog</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
@@ -24,7 +24,9 @@ const Navibar = () => {
                         <Button variant="primary" className="me-2">
                             Log In
                         </Button>
-                        <Button variant="primary">Sign Up</Button>
+                        <Button variant="primary" className="me-2">
+                            Sign Up
+                        </Button>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
