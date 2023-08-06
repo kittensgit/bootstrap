@@ -78,15 +78,31 @@ const Navibar = () => {
                                 We'll never share your email with anyone else.
                             </Form.Text>
                         </Form.Group>
-                        <Form.Group controlId="formBasicPassword">
+                        <Form.Group
+                            controlId="formBasicPassword"
+                            className="mt-2"
+                        >
                             <Form.Label>Password</Form.Label>
                             <Form.Control
                                 type="password"
                                 placeholder="Enter password"
                             />
                         </Form.Group>
-                        <Form.Group controlId="formBasicCheckbox">
+                        <Form.Group
+                            controlId="formBasicCheckbox"
+                            className="mb-2 mt-1"
+                        >
                             <Form.Check type="checkbox" label="Remember me" />
+                        </Form.Group>
+                        <Form.Group className="float-end  me-3">
+                            <Button
+                                onClick={handleClose}
+                                className="me-1"
+                                variant="secondary"
+                            >
+                                Cancel
+                            </Button>
+                            <Button variant="primary">Save Change</Button>
                         </Form.Group>
                     </Form>
                 </Modal.Body>
