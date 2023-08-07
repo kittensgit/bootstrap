@@ -1,7 +1,12 @@
 import React from 'react';
+import Jumbotron from './Jumbotron';
 
 const About = () => {
-    return <div>About</div>;
+    return (
+        <>
+            <Jumbotron />
+        </>
+    );
 };
 
 export default About;
