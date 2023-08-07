@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from './Slider';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import ocean from '../ocean.jpg';
+import Jumbotron from './Jumbotron';
 
 const Home = () => {
     return (
@@ -50,6 +51,7 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
+            <Jumbotron />
         </>
     );
 };
