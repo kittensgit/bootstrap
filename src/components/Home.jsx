@@ -52,6 +52,29 @@ const Home = () => {
                 </Row>
             </Container>
             <Jumbotron />
+            <Container className="mt-5 mb-5">
+                <Row>
+                    <Col md={7}>
+                        <img src={ocean} height="400px" alt="col" />
+                    </Col>
+                    <Col md={5}>
+                        <h2>Bootstrap</h2>
+                        <p>
+                            Aliquip sint duis laborum occaecat ad officia
+                            consectetur commodo sit in. Sunt et proident sunt
+                            dolor enim officia. Esse fugiat ad ipsum
+                            consectetur. Magna qui nisi fugiat minim. Laboris
+                            quis labore quis dolor ad tempor cillum culpa nulla
+                            voluptate in elit nostrud. Aliquip sint duis laborum
+                            occaecat ad officia consectetur commodo sit in. Sunt
+                            et proident sunt dolor enim officia. Esse fugiat ad
+                            ipsum consectetur. Magna qui nisi fugiat minim.
+                            Laboris quis labore quis dolor ad tempor cillum
+                            culpa nulla voluptate in elit nostrud.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
         </>
     );
 };
